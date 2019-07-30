@@ -1,0 +1,104 @@
+.clear {
+  zoom: 1;
+}
+
+.clear:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.checkbox-list{
+  position: relative;
+  padding-right: 200px;
+  min-height: 32px;
+
+  span{
+    line-height: 32px;
+    padding-right: 15px;
+  }
+  .add{
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+.first{
+  font-size: 18px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.ivu-table-wrapper{
+  .text{
+    padding: 0px 5px;
+    color: rgb(52, 151, 242);
+    cursor: pointer;
+  }
+}
+
+.dimension{
+  margin-top: 10px;
+  height: 32px;
+
+  span{
+    color: red;
+    line-height: 32px;
+  }
+  &.dimension-info{
+    margin-bottom: 10px;
+    
+    .ivu-btn{
+      float: right;
+    }
+  }
+  &.setting{
+    span{
+      padding-left: 10px;
+    }
+  }
+}
+
+.fraction-rule li{
+  list-style: none;
+  border: 1px solid #E1E1E1;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  padding: 0 15px 10px;
+
+  .btn-list{
+    text-align: right;
+  }
+
+  .item{
+    padding-left: 20px;
+    margin-bottom: 10px;
+
+    .from-item{
+      height: 30px;
+
+      span{
+        float: left;
+        font-size: 14px;
+        color: #606266;
+        line-height: 30px;
+        height: inherit;
+      }
+    }
+  }
+  .total-score{
+    font-size: 14px;
+    line-height: 40px;
+    color: #409EFF;
+    padding-left: 20px;
+    background: url('./images/2.png') no-repeat 0 center;
+  }
+  .info{
+    text-align: justify;
+    line-height: 24px;
+    font-size: 14px;
+    color: #999;
+  }
+
+}

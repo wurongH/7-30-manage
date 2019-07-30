@@ -1,0 +1,11 @@
+.playerForm {
+  position: relative;
+}
+.playerForm .checkBox {
+  width: 72%;
+  min-height: 50px;
+  margin-left: 15px;
+}
+.playerForm .checkBox .ivu-radio-wrapper {
+  margin-right: 15px;
+}
