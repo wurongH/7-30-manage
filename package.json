@@ -33,7 +33,7 @@
     "ejs": "~2.3.3",
     "element-ui": "^2.3.4",
     "es6-promise": "^4.1.1",
-    "express": "~4.13.1",
+    "express": "~4.17.3",
     "express-session": "^1.13.0",
     "extend": "^3.0.0",
     "formidable": "^1.0.17",
